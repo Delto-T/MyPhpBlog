@@ -32,12 +32,14 @@
         <header class="w-100">
             <nav class="navbar navbar-dark navbar-expand-md bg-danger w-100">
                 <div class="container">
-
-                    <div class="navbar-brand text-light">
-                        <img src="public/assets/image/map.png" alt="maneki-neko" width="30px">
-                        Japan Trip
-                    </div>
-
+                    <a href="index.php?page=accueil">
+                        <div class="navbar-brand text-light">
+                            
+                                <img src="public/assets/image/map.png" alt="maneki-neko" width="30px">
+                                Japan Trip
+                            
+                        </div>
+                    </a>
                     <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#monMenueDeroulant">
                         <span class="navbar-toggler-icon"></span>
                     </div>
@@ -50,9 +52,6 @@
                             <li class="nav-item">
                                 <a href="index.php?page=articles" class="nav-link">Articles</a>
                             </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Contact</a>
-                            </li> 
                             <?php // Connecté
                                 if(isset($_SESSION['connect']) && $_SESSION['connect']){ ?>
                                     <li class="nav-item">

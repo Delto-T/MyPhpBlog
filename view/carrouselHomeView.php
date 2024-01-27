@@ -45,12 +45,14 @@
         while($article = $requeteFrontPageArticles->fetch()) {
         ?>
             <div class="carousel-item <?= firstSlideActive($firstActiveSlide)?>" data-bs-interval="10000" >
-                <img src=<?=$article['imageLink']?> alt=<?=$article['imageAlt']?> class="w-100 d-block">
-                <!-- Text sur une image dans le slide -->
-                <div class="carousel-caption text-start shadow p-2 rounded-3">
-                    <h5><?=$article['title']?></h5>
-                    <div><?=$article['summary']?></div>
-                </div>
+                <a href="<?= "index.php?page=article&id=".$article['id'] ?>">
+                    <img src=<?=$article['imageLink']?> alt=<?=$article['imageAlt']?> class="w-100 d-block">
+                    <!-- Text sur une image dans le slide -->
+                    <div class="carousel-caption text-start shadow p-2 rounded-3">
+                        <h5><?=$article['title']?></h5>
+                        <div><?=$article['summary']?></div>
+                    </div>
+                </a>
             </div>  
         <?php 
         $firstActiveSlide = true;
