@@ -6,7 +6,9 @@
         <!-- Prévoir une view pour les commentaires à afficher -->
         <?php
         require_once('displayComments.php');
-        require('formComment.php');?>
+        if(isset($_SESSION['connect']) && $_SESSION['connect']){
+            require('formComment.php');
+        }?>
     </div>    
         <!-- Ecrire un commentaire -->
 
