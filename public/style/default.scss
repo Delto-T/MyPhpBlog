@@ -1,0 +1,38 @@
+
+// @import"../../node_modules/bootstrap/scss/bootstrap.scss";
+
+$primary: #d7003a;
+$secondary: #8f5325;
+$success: #3e8d63;
+$info: #13101c;
+$warning: #945707;
+$danger: #d62518;
+$light: #f8f9fa;
+$dark: #343a40;
+
+$theme-colors: (
+    primary: $primary,
+    secondary: $secondary,
+    success: $success,
+    info: $info,
+    warning: $warning,
+    danger: $danger,
+    light: $light,
+    dark: $dark
+// add any additional color below
+);
+
+
+@import"../../node_modules/bootstrap/scss/bootstrap.scss";
+
+li{
+    list-style-type: none; 
+}
+
+a{
+    text-decoration: none;
+}
+
+.imagesArticle{
+    max-width: 800px;
+}
