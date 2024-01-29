@@ -19,12 +19,13 @@ Ce site internet est ma version personnel d'un blog abordant le thème du Japon.
 
 ### Fonctionnalité
 
-Sur ce blog vous pourrez:
+Sur ce blog propose les fonctionnalités suivantes:
 
 - Tout utilisateur pourra lire les articles
 - Tout utilisateur pourra lire les commentaires
-- Vous connecter
-- Vous déconnecter
+- Tout utilisateur pourra s'inscrire
+- Tout utilisateur pourra se connecter
+- Tout utilisateur pourra se déconnecter
 - L'adiministrateur pourra créer un article
 - L'adiministrateur pourra modifier un article
 - L'adiministrateur pourra supprimer un article
@@ -43,3 +44,4 @@ Sur ce blog vous pourrez:
 
 - Ajouter la possibilité de mettre une note dans commentaires des articles
 - Suivre le nombre de commentaire écrit par chaque utilisateur
+- Ajouter la possibiliter de se désinscrire du blog.
