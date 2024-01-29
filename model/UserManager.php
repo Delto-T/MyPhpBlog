@@ -59,10 +59,6 @@ class UserManager extends Manager{
         $requete->execute([$firstName,$lastName,$email,$id]);
     }
 
-    public function deleteUser(){
-
-    }
-
     public function createUserSession($id,$email,$firstName,$admin){
         $_SESSION['id'] = $id;
         $_SESSION['email'] = $email;
