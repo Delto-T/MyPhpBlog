@@ -1,5 +1,4 @@
-# Projet1-Jeu-du-Pendu
-
+# Projet2-Blog-JapanTravel
 Ce site est conçu dans le cadre de la formation Roquette par ©Believemy
 
 ## Technologies utilisées
